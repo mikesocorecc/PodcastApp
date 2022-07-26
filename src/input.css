@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.contenedor{
+    @apply w-[95%] max-w-[1200px] mx-auto;
+}
+ 
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: 'Poppins', sans-serif;
+    }
+}
